@@ -1,6 +1,9 @@
-C=g++
+C=g++ 
 
-FILES=Lox.cpp
+FILES=Lox.cpp Token.cpp Scanner.cpp
 
 all:
-	$(C) $(FILES)
+	$(C) -std=c++11 $(FILES) 
+
+clean:
+	rm a.out
