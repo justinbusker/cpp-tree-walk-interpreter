@@ -5,13 +5,13 @@ class Token {
 
 	enum TokenType type;
 	std::string lexeme;
-	std::string literal;
+	void* literal;
 	int line;
 
-	Token(TokenType type, std::string lexeme, std::string literal, int line);
 
 public:
 
+	Token(TokenType type, std::string lexeme, void* literal, int line);
 	std::string toString();
 };
 
