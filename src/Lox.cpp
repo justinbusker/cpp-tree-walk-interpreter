@@ -71,8 +71,3 @@ private:
 	}
 };
 
-int main(int argc, char *argv[]){
-	Lox test;
-	test.main(argc, argv);
-	return 0;
-}
