@@ -1,5 +1,5 @@
 #include <any>
-#include "TokenType.h"
+#include "TokenType.hpp"
 #include "Token.hpp"
 #include <iostream>
 
